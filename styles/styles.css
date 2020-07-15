@@ -137,18 +137,6 @@ nav .profile-link a{
     background: white;
     color: #47cfac;
 }
-.blogs-button-special{
-    border: 1px solid #47cfac;
-    padding: 10px 15px;
-    font-size: 15px;
-    background: #e6e9ed;
-    color: #47cfac;
-}
-.blogs-button-special:hover{
-    color: #e6e9ed;
-    background: #47cfac;
-    text-decoration: underline;
-}
 .blogs-button:hover{
     color: #e6e9ed;
     background: #47cfac;
@@ -156,9 +144,11 @@ nav .profile-link a{
 }
 .blogs-posts-container .post-container {
     display: inline-block;
-    padding-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     max-width: 30%;
     margin-bottom: 50px;
+    background-color: #e6e9ed;
 }
 .blogs-posts-container .post-container p {
     margin-bottom: 35px;
